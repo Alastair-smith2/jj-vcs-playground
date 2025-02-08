@@ -5,4 +5,5 @@ fn main() {
     let something_else = 15;
     let another_value = 20;
     let val = 20;
+    let test = 25;
 }
