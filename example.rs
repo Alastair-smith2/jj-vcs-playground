@@ -16,4 +16,5 @@ fn main() {
     let example = Example {fieldOne: false, fieldTwo: String::from("Hey"), fieldThree: 5};
     println!("No formatter makes the syntax check harder :) {:?}", example);
     let some_example = Example {fieldOne: true, fieldTwo: String::from("King Boo"), fieldThree: 10};
+    let another_example = String::from("A new world");
 }
