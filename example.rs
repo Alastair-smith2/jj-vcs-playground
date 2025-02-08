@@ -13,7 +13,7 @@ fn main() {
     let another_value = 20;
     let val = 20;
     let test = 25;
-    let example = Example {fieldOne: false, fieldTwo: String::from("Hey"), fieldThree: 5}
+    let example = Example {fieldOne: false, fieldTwo: String::from("Hey"), fieldThree: 5};
     println!("No formatter makes the syntax check harder :) {:?}", example);
-    
+    let some_example = Example {fieldOne: true, fieldTwo: String::from("King Boo"), fieldThree: 10};
 }
